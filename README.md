@@ -4,6 +4,11 @@ This repo contains information on how to deploy ollama on OpenShift.
 
 ## Requirements
 
+- CPU only
+- CodeSpaces DevContainer with ollama installed
+
+OR
+
 - OpenShift >= 4.15
 - A GPU worker node with at least 16GB of GPU memory.
   - AWS

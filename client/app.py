@@ -3,7 +3,7 @@ import gradio as gr
 import os
 
 # This model name should match what model was pulled from the Ollama API.
-model = os.getenv("OLLAMA_MODEL", "granite3-dense:8b")
+model = os.getenv("OLLAMA_MODEL", "qwen3:0.6b")
 
 url = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 url = url + "/api/generate"
